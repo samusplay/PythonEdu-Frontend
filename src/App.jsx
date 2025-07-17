@@ -1,15 +1,21 @@
-import { useState } from 'react'
-import './App.css'
-import Register from './components/Register'
-
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Registro from './pages/Registro';
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
-    <>
-      <Register/>
+   <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/"        element={<Home />} />
+        <Route path="/registro" element={<Registro />} />
+      </Routes>
     </>
-  )
+  );
+  
 }
 
 export default App
