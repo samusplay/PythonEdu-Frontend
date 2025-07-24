@@ -3,17 +3,17 @@ const cards=[
     {
     title: 'Guías prácticas',
     description: 'Paso a paso para cada tarea, desde cero hasta el despliegue.',
-    image: 'https://source.unsplash.com/400x300/?coding,guide'
+    image: 'https://i.pinimg.com/736x/f4/84/78/f48478a0fc251d2e9593d9836943de5c.jpg'
   },
   {
     title: 'Respuestas al instante',
     description: 'Tu chatbot responde dudas de código y metodología al momento.',
-    image: 'https://source.unsplash.com/400x300/?chat,ai'
+    image: 'https://i.pinimg.com/1200x/b6/95/e5/b695e51793fc7066a75a51bd43d4358a.jpg'
   },
   {
     title: 'Acompañamiento 24/7',
     description: 'Soporte continuo para que nunca te quedes atascado.',
-    image: 'https://source.unsplash.com/400x300/?support,help'
+    image: 'https://i.pinimg.com/1200x/64/92/11/649211ea9a1cee054caabd5ddff547ff.jpg'
   }
 ];
 
